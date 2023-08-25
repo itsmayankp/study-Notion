@@ -137,7 +137,7 @@ function SignupForm({setLoggedIn}){
                         className="bg-richblack-800 rounded-[0.5rem] w-full text-richblack-5 p-[12px] border-b-[1px] border-richblack-200"
                         />
                         <span onClick={() => setConfirmShowPassword(!ConfirmShowPassword)}
-                        className="absolute right-3 top-[73px] cursor-pointer text-[25px] text-[#afb2af]">
+                        className="absolute right-3 top-[38px] cursor-pointer text-[25px] text-[#afb2af]">
                             {ConfirmShowPassword ? (<AiOutlineEyeInvisible/>) : (<AiOutlineEye/>)}
                         </span>
                     </label>
